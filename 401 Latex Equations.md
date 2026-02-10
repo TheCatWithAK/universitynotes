@@ -112,3 +112,10 @@ $v = \dfrac{1}{\sqrt{\epsilon\mu}} = \dfrac{c}{n}$
 
 $\displaystyle n\equiv\sqrt{\frac{\epsilon\mu}{\epsilon_0\mu_0}}\approx \sqrt{\epsilon_r}$
 
+Waves at Normal Angles
+
+
+Waves at Oblique Angles
+
+$\displaystyle \tilde{\vec{E}}_I(\vec{r},t) = \tilde{\vec{E}}_{0I} e^{i(\vec{k_I}\cdot\vec{r} - \omega t)}$, $\displaystyle \tilde{\vec{B}}_I(\vec{r},t) = \frac{1}{v_1}\left(\hat{k}_1\times\tilde{\vec{E}}_I\right)$
+
