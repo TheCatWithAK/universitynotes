@@ -28,4 +28,16 @@ Momentum of EM Field: $\displaystyle \vec{P}_{\text{EM}} = \int_v \vec{g}\text{d
 
 Maxwell's Stress Tensor: $\displaystyle T_{ij} = \varepsilon_0 \left(E_iE_j - \frac{1}{2}\delta_{ij}E^2 \right) + \frac{1}{\mu_0}\left(B_iB_j - \frac{1}{2}\delta_{ij}B^2 \right)$
 
-$\
+Momentum: $\displaystyle\frac{\text{d}\vec{p}_{\text{mech}}}{\text{d}t} + \frac{\text{d}}{\text{d}t}\left( \int_v\vec{g}\text{d}\tau\right) = \oint_s\vec{T}\cdot\vec{a}$
+
+Angular Momentum: $\vec{l}_{\text{EM}} = \vec{r}\times\vec{g}_{\text{EM}} = \varepsilon_0\left[\vec{r}\times\left(\vec{E}\times\vec{B}\right) \right]$
+
+Maxwell in Vacuum
+
+$\nabla\cdot\vec{E} = 0$
+
+$\nabla\times\vec{E} = -\dfrac{\partial\vec{B}}{\partial t}$
+
+$\nabla\cdot\vec{B} = 0$
+
+$\nabla\times\vec{B} = \varepsilon_0\mu_0\dfrac{\partial\vec}
