@@ -1,7 +1,5 @@
 Solenoid: $\vec{B} = \mu_0nI$
 
-
-
 Gauss's Law: $\displaystyle \oint\vec{E}\cdot\text{d}\vec{A} = \dfrac{Q_{in}}{\epsilon_0}$, $\nabla\cdot\vec{E} = \dfrac{\rho}{\epsilon_0}$
 
 Faraday's Law: $\displaystyle \oint\vec{E}\cdot\text{d}\vec{s} = -\dfrac{\text{d}\Phi_m}{\text{d}t}$, $\nabla \times \vec{E} = -\dfrac{\partial\vec{B}}{\partial t}$
@@ -10,9 +8,9 @@ Ampere-Maxwell: $\displaystyle \oint\vec{B}\cdot\text{d}\vec{s} = \mu_0I_{ext} +
 
 Charge Continuity: $\displaystyle \frac{\partial\rho}{\partial t} = -\nabla\cdot\vec{J}$
 
-Energy Density: $\displaystyle u = \frac{\epsilon_0}{2}E^2 + \frac{1}{2\mu_0}B^2$
+Energy Density: $\displaystyle u = \frac{\epsilon}{2}E^2 + \frac{1}{2\mu}B^2$
 
-Poynting Vector: $\displaystyle \vec{S} = \frac{1}{\mu_0}\vec{E}\times\vec{B}$
+Poynting Vector: $\displaystyle \vec{S} = \frac{1}{\mu}\vec{E}\times\vec{B}$
 
 Work-Energy: $\displaystyle \frac{\text{d}W}{\text{d}t} = -\frac{\partial}{\partial t}\int_v{u(r,t)\text{d}\tau} - \oint\vec{S}\cdot\text{d}\vec{a}$
 
@@ -38,8 +36,9 @@ Angular Momentum: $\vec{l}_{\text{EM}} = \vec{r}\times\vec{g}_{\text{EM}} = \eps
 
 EMF: $\displaystyle \varepsilon = \oint\vec{E}\cdot\text{d}\vec{l} = -\frac{\text{d}\Phi}{\text{d}t} = -\int\frac{\text{d}\vec{B}}{\text{d}t}\cdot \text{d}\vec{a}$
 
+$\nabla\times\vec{E} = -\dfrac{\partial\vec{B}}{\partial t}$
 
-Maxwell in Vacuum
+Maxwell
 
 $\nabla\cdot\vec{E} = 0$
 
@@ -47,8 +46,22 @@ $\nabla\times\vec{E} = -\dfrac{\partial\vec{B}}{\partial t}$
 
 $\nabla\cdot\vec{B} = 0$
 
-$\nabla\times\vec{B} = \varepsilon_0\mu_0\dfrac{\partial\vec{E}}{\partial t}$
+$\nabla\times\vec{B} = \epsilon\mu\dfrac{\partial\vec{E}}{\partial t}$
 
-$\nabla^2\vec{E} = \varepsilon_0\mu_0\dfrac{\partial^2\vec{E}}{\partial t^2}$
+$\nabla^2\vec{E} = \epsilon\mu\dfrac{\partial^2\vec{E}}{\partial t^2}$
 
-$v = \dfrac{1}{\sqrt{\epsilon_0\mu_0}}$
+Monochromatic Plane Wave
+$v = \dfrac{1}{\sqrt{\epsilon\mu}} = \dfrac{c}{n}$
+$\displaystyle n\equiv\sqrt{\frac{\epsilon\mu}{\epsilon_0\mu_0}}\approx \sqrt{\epsilon_r}$
+
+Boundary Conditions:
+
+$\epsilon_1E^{\perp}_1 = \epsilon_2E^{\perp}_2$
+
+$B^{\perp}_1 = B^{\perp}_2$
+
+$\vec{E}^{\parallel}_1 = \vec{E}^{\parallel}_2$
+
+$\displaystyle \frac{1}{\mu_1}\vec{B}^{\parallel}_1 = \frac{1}{\mu_2}\vec{B}^{\parallel}_2$
+
+
