@@ -4,5 +4,6 @@
   "accentColor": "#ffa500",
   "showViewHeader": true,
   "translucency": false,
-  "nativeMenus": false
+  "nativeMenus": false,
+  "theme": "moonstone"
 }
