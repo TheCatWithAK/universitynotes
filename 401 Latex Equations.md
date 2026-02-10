@@ -65,3 +65,35 @@ $\vec{E}^{\parallel}_1 = \vec{E}^{\parallel}_2$
 $\displaystyle \frac{1}{\mu_1}\vec{B}^{\parallel}_1 = \frac{1}{\mu_2}\vec{B}^{\parallel}_2$
 
 
+$\displaystyle \tilde{\vec{E}}(\vec{r}, t) = \tilde{E_0}e^{i(\vec{k}\cdot\vec{r} - \omega t)}\hat{n}$
+
+$\displaystyle \tilde{\vec{B}}(\vec{r}, t) = \frac{1}{c}\tilde{E}_0e^{i(\vec{k}\cdot\vec{r} - \omega t)}(\hat{k}\times\hat{n}) = \frac{1}{c}\hat{k}\times\tilde{\vec{E}}$
+
+$\hat{n}\times\hat{k} = 0$
+
+Real fields:
+
+$\vec{E}(\vec{r},t) = E_0\cos\left(\vec{k}\cdot\vec{r} - \omega t + \delta\right)\hat{n}$
+
+$\displaystyle \vec{B}(\vec{r},t) = \frac{1}{c}E_0 \cos\left(\vec{k}\cdot\vec{r} - \omega t + \delta \right)(\hat{k}\times\hat{n})$
+
+Momentum Density for monochromatic plane waves:
+
+$\displaystyle \vec{g} = \frac{1}{c}\epsilon_0E^2_0 \cos^2(kz - \omega t + \delta)\hat{z} = \frac{1}{c}u\hat{z}$
+
+Average over complete cycle:
+
+$\langle u \rangle = \dfrac{1}{2}\epsilon_0E^2_0$
+
+$\langle \vec{S} \rangle = \dfrac{1}{2}c\epsilon_0E_0^2\hat{z}$
+
+$\langle\vec{g}\rangle = \dfrac{1}{2c}\epsilon_0E_0^2\hat{z}$
+
+Intensity:
+
+$I \equiv \langle S \rangle = \dfrac{1}{2}c\epsilon_0E^2_0$
+
+Radiation Pressure (average force per unit area):
+
+$P = \dfrac{1}{A}\dfrac{\Delta p}{\Delta t} = \dfrac{1}{2}\epsilon_0E^2_0 = \dfrac{I}{c}$
+
