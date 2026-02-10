@@ -53,6 +53,7 @@ $\nabla^2\vec{E} = \epsilon\mu\dfrac{\partial^2\vec{E}}{\partial t^2}$
 Monochromatic Plane Wave
 $v = \dfrac{1}{\sqrt{\epsilon\mu}} = \dfrac{c}{n}$
 $\displaystyle n\equiv\sqrt{\frac{\epsilon\mu}{\epsilon_0\mu_0}}\approx \sqrt{\epsilon_r}$
+$\omega = 2\pi v = kv$
 
 Boundary Conditions:
 
@@ -70,6 +71,9 @@ $\displaystyle \tilde{\vec{E}}(\vec{r}, t) = \tilde{E_0}e^{i(\vec{k}\cdot\vec{r}
 $\displaystyle \tilde{\vec{B}}(\vec{r}, t) = \frac{1}{c}\tilde{E}_0e^{i(\vec{k}\cdot\vec{r} - \omega t)}(\hat{k}\times\hat{n}) = \frac{1}{c}\hat{k}\times\tilde{\vec{E}}$
 
 $\hat{n}\times\hat{k} = 0$
+
+Assuming $\hat k = \hat z$
+$\hat{n} = \cos(\theta)\hat{x} + \sin(\theta)\hat{y}$
 
 Real fields:
 
