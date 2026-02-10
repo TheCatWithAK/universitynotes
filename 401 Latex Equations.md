@@ -46,13 +46,15 @@ $\nabla\times\vec{E} = -\dfrac{\partial\vec{B}}{\partial t}$
 
 $\nabla\cdot\vec{B} = 0$
 
-$\nabla\times\vec{B} = \epsilon\mu\dfrac{\partial\vec{E}}{\partial t}$
+$\nabla\times\vec{B} = \epsilon_0\mu_0\dfrac{\partial\vec{E}}{\partial t}$
 
-$\nabla^2\vec{E} = \epsilon\mu\dfrac{\partial^2\vec{E}}{\partial t^2}$
+$\nabla^2\vec{E} = \epsilon_0\mu_0\dfrac{\partial^2\vec{E}}{\partial t^2}$
+
+$\nabla^2\vec{B} = \epsilon_0\mu_0\dfrac{\partial^2\vec{B}}{\partial t^2}$
 
 Monochromatic Plane Wave
-$v = \dfrac{1}{\sqrt{\epsilon\mu}} = \dfrac{c}{n}$
-$\displaystyle n\equiv\sqrt{\frac{\epsilon\mu}{\epsilon_0\mu_0}}\approx \sqrt{\epsilon_r}$
+
+$c = \dfrac{1}{\sqrt{\epsilon_0\mu_0}}$
 $\omega = 2\pi v = kv$
 
 Boundary Conditions:
@@ -74,6 +76,7 @@ $\hat{n}\times\hat{k} = 0$
 
 Assuming $\hat k = \hat z$
 $\hat{n} = \cos(\theta)\hat{x} + \sin(\theta)\hat{y}$
+$\tilde{\vec{f}}(z,t) = \left(\tilde{A}\cos(\theta)\right)e^{i(kz-\omega t)}\hat{x} + \left(\tilde{A}\sin(\theta)\right)e^{i(kz-\omega t)}\hat{y}$ 
 
 Real fields:
 
@@ -100,4 +103,12 @@ $I \equiv \langle S \rangle = \dfrac{1}{2}c\epsilon_0E^2_0$
 Radiation Pressure (average force per unit area):
 
 $P = \dfrac{1}{A}\dfrac{\Delta p}{\Delta t} = \dfrac{1}{2}\epsilon_0E^2_0 = \dfrac{I}{c}$
+
+Inside matter with on free charge or free current
+Assuming Linear Medium: $\displaystyle \vec{D} = \epsilon\vec{E}$, $\vec{H} = \dfrac{1}{\mu}\vec{B}$
+Maxwell simply replace $\epsilon_0, \mu_0$ with $\epsilon, \mu$
+
+$v = \dfrac{1}{\sqrt{\epsilon\mu}} = \dfrac{c}{n}$
+
+$\displaystyle n\equiv\sqrt{\frac{\epsilon\mu}{\epsilon_0\mu_0}}\approx \sqrt{\epsilon_r}$
 
