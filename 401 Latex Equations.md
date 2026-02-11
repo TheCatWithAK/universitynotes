@@ -114,7 +114,21 @@ $\displaystyle n\equiv\sqrt{\frac{\epsilon\mu}{\epsilon_0\mu_0}}\approx \sqrt{\e
 
 Waves at Normal Angles
 
+$\tilde{\vec{E}}_I(z,t) = \tilde{E}_{0_I}e^{i(k_1z - \omega t)}\hat{x}$, $\tilde{\vec{B}}_I(z,t) = \dfrac{1}{v_1}\tilde{E}_{0_I}e^{i(k_1z-\omega t)}\hat{y}$
 
+$\tilde{\vec{E}}_R(z,t) = \tilde{E}_{0_R}e^{i(-k_1z - \omega t)}\hat{x}$, $\tilde{\vec{B}}_R(z,t) = -\dfrac{1}{v_1}\tilde{E}_{0_R}e^{i(k_1z-\omega t)}\hat{y}$
+
+$\tilde{\vec{E}}_T(z,t) = \tilde{E}_{0_T}e^{i(k_2z - \omega t)}\hat{x}$, $\tilde{\vec{B}}_T(z,t) = \dfrac{1}{v_2}\tilde{E}_{0_T}e^{i(k_2z-\omega t)}\hat{y}$
+
+Boundary Conditions:
+
+$\epsilon_1E^{\perp}_1 = \epsilon_2E^{\perp}_2 = 0$
+
+$B^{\perp}_1 = B^{\perp}_2 = 0$
+
+$\tilde{E}_{0_I} + \tilde{E}_{0_R} = \tilde{E}_{0_T}$
+
+$\displaystyle \frac{1}{\mu_1}\frac{1}{v_1}\left(\tilde{E}_0 - \tilde{E}_ \right)
 
 
 Waves at Oblique Angles
