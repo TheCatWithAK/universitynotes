@@ -226,6 +226,7 @@ $\tilde{k}^2 = \epsilon\mu\omega^2 + i\mu\sigma\omega$
 $\tilde{k} = k + i\varkappa$
 where
 $\displaystyle k \equiv \omega\sqrt{\dfrac{\epsilon\mu}{2}}\left[\sqrt{1+\left(\dfrac{\sigma}{\epsilon\omega}\right)^2} + 1 \right]^{1/2}$
+$\displaystyle \varkappa \equiv \omega\sqrt{\dfrac{\epsilon\mu}{2}}\left[\sqrt{1+\left(\dfrac{\sigma}{\epsilon\omega}\right)^2} - 1 \right]^{1/2}$
 
 Field Structure:
 $\tilde{\vec{E}}(z,t) = \tilde{E_0}e^{-\varkappa z}e^{i(kz-\omega t)}\hat{x}$, $\tilde{\vec{B}}(z,t) = \tilde{B_0}e^{-\varkappa z}e^{i(kz-\omega t)}\hat{y}$
