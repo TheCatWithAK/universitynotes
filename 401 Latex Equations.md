@@ -177,9 +177,19 @@ $\dfrac{1}{\mu_1v_1}\left(\tilde{\vec{E}}_{0_I} -\tilde{\vec{E}}_{0_R} \right) =
 Again, 
 $\tilde{E}_{0_I} - \tilde{E}_{0_R} = \beta\tilde{E}_{0_T}$
 where
-$\beta = \dfrac{\mu_1v_1}{\mu_2v2} = \dfrac{\mu_1n_2}{\mu_2n_1}$
+$\beta = \dfrac{\mu_1v_1}{\mu_2v2} = \dfrac{\mu_1n_2}{\mu_2n_1} \approx \dfrac{n_2}{n_1}$
 
 $\tilde{\vec{E}}_{0_I} +\tilde{\vec{E}}_{0_R} = \alpha\tilde{\vec{E}}_{0_T}$
 where
 $\alpha \equiv \dfrac{\cos(\theta_T)}{\cos(\theta_I)}$
 
+TM Polarization:
+$\tilde{E}_{0_R} = \dfrac{\alpha - \beta}{\alpha + \beta}\tilde{E_{0_I}}$
+$\tilde{E}_{0_T} = \dfrac{2}{\alpha + \beta}\tilde{E}_{0_I}$
+$R = \left(\dfrac{\alpha-\beta}{\alpha + \beta}\right)^2$
+$T = \dfrac{4\alpha\beta}{(\alpha + \beta)^2}$
+
+TE Polarization:
+$\tilde{E}_{0_R} = \dfrac{1 - \alpha\beta}{1+ \alpha\beta}\tilde{E_{0_I}}$
+$\tilde{E}_{0_T} = \dfrac{2}{1+ \alpha\beta}\tilde{E}_{0_I}$
+$R = \left
