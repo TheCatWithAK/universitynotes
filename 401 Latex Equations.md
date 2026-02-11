@@ -56,6 +56,7 @@ Monochromatic Plane Wave
 
 $c = \dfrac{1}{\sqrt{\epsilon_0\mu_0}}$
 $\omega = 2\pi v = kv$
+$k = \dfrac{\omega}{c}$
 
 Boundary Conditions:
 
@@ -71,6 +72,7 @@ $\displaystyle \frac{1}{\mu_1}\vec{B}^{\parallel}_1 = \frac{1}{\mu_2}\vec{B}^{\p
 $\displaystyle \tilde{\vec{E}}(\vec{r}, t) = \tilde{E_0}e^{i(\vec{k}\cdot\vec{r} - \omega t)}\hat{n}$
 
 $\displaystyle \tilde{\vec{B}}(\vec{r}, t) = \frac{1}{c}\tilde{E}_0e^{i(\vec{k}\cdot\vec{r} - \omega t)}(\hat{k}\times\hat{n}) = \frac{1}{c}\hat{k}\times\tilde{\vec{E}}$
+
 
 $\hat{n}\times\hat{k} = 0$
 
