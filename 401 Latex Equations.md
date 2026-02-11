@@ -225,14 +225,7 @@ $\tilde{k}^2 = \epsilon\mu\omega^2 + i\mu\sigma\omega$
 
 $\tilde{k} = k + i\varkappa$
 where
-$\displaystyle k \equiv \omega\sqrt{\dfrac{\epsilon\mu}{2}}\left[\sqrt{1+\left(\dfrac{\sigma}{\epsilon\omega}\right)^2} \pm 1 \right]^{1/2}$
-
-Good conductor:
-$\dfrac{\sigma}{\epsilon\omega} \gg 1$
-$k \approx \varkappa \approx \sqrt{\dfrac{\omega\mu\sigma}{2}}$
-Bad conductor
-$\dfrac{\sigma}{\epsilon\omega} \ll 1$
-$k \approx \omega\sqrt{\epsilon\mu} \gg \varkappa \approx \dfrac{1}{2}\dfrac{\sigma}{\epsilon\omega}k$
+$\displaystyle k \equiv \omega\sqrt{\dfrac{\epsilon\mu}{2}}\left[\sqrt{1+\left(\dfrac{\sigma}{\epsilon\omega}\right)^2} + 1 \right]^{1/2}$
 
 Field Structure:
 $\tilde{\vec{E}}(z,t) = \tilde{E_0}e^{-\varkappa z}e^{i(kz-\omega t)}\hat{x}$, $\tilde{\vec{B}}(z,t) = \tilde{B_0}e^{-\varkappa z}e^{i(kz-\omega t)}\hat{y}$
@@ -248,9 +241,31 @@ $B_0e^{i\delta{B}} = \dfrac{Ke^{i\varphi}}{\omega}E_0e^{i\delta_E}$
 
 $\delta_B - \delta_E = \varphi = \arctan\left(\dfrac{\varkappa}{k}\right)$
 
+Good conductor:
+$\dfrac{\sigma}{\epsilon\omega} \gg 1$
+$k \approx \varkappa \approx \sqrt{\dfrac{\omega\mu\sigma}{2}}$
+$\varphi \approx \dfrac{\pi}{4}$
+Bad conductor:
+$\dfrac{\sigma}{\epsilon\omega} \ll 1$
+$k \approx \omega\sqrt{\epsilon\mu} \gg \varkappa \approx \dfrac{1}{2}\dfrac{\sigma}{\epsilon\omega}k$
+$\varphi \approx \dfrac{1}{2}\dfrac{\sigma}{\epsilon\omega}$
+
+
 Real fields:
 $\vec{E}(z,t) = E_0e^{-\varkappa z}\cos(kz-\omega t + \delta_E)\hat{x}$
 $\vec{B}(z,t) = B_0e^{-\varkappa z}\cos(kz-\omega t + \delta_E + \varphi)\hat{y}$
 
 $\dfrac{B_0}{E_0} = \dfrac{K}{\omega} = \sqrt{\epsilon\mu\sqrt{1+\left(\dfrac{\sigma}{\epsilon\omega}\right)^2}}$
 
+Regular harmonic oscillation $e^{i(kz-\omega t)}$
+Phase speed of wave is $v = \dfrac{\omega}{k}$
+
+Exponential Decay $\displaystyle e^{-\varkappa z}$
+Characteristic decay length is $d = \dfrac{1}{\varkappa}$
+
+Energy distribution between $\vec{E}$ and $\vec{B}$
+For insulator:
+$\langle u_E\rangle = \langle u_B \rangle = \dfrac{\epsilon\tilde{E}_0^2}{4}$
+
+For a good conductor
+$\dfrac{\langle u_B\rangle}{\langle u_E \rangle}= \dfrac{\sigma}{\omega\epsilon} \gg 1$ 
