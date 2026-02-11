@@ -115,7 +115,13 @@ $\displaystyle n\equiv\sqrt{\frac{\epsilon\mu}{\epsilon_0\mu_0}}\approx \sqrt{\e
 Waves at Normal Angles
 
 
+
+
 Waves at Oblique Angles
 
-$\displaystyle \tilde{\vec{E}}_I(\vec{r},t) = \tilde{\vec{E}}_{0I} e^{i(\vec{k_I}\cdot\vec{r} - \omega t)}$, $\displaystyle \tilde{\vec{B}}_I(\vec{r},t) = \frac{1}{v_1}\left(\hat{k}_1\times\tilde{\vec{E}}_I\right)$
+$\displaystyle \tilde{\vec{E}}_I(\vec{r},t) = \tilde{\vec{E}}_{0I} e^{i(\vec{k_I}\cdot\vec{r} - \omega t)}$, $\displaystyle \tilde{\vec{B}}_I(\vec{r},t) = \frac{1}{v_1}\left(\hat{k}_I\times\tilde{\vec{E}}_I\right)$
+
+$\displaystyle \tilde{\vec{E}}_R(\vec{r},t) = \tilde{\vec{E}}_{0R} e^{i(\vec{k_R}\cdot\vec{r} - \omega t)}$, $\displaystyle \tilde{\vec{B}}_R(\vec{r},t) = \frac{1}{v_1}\left(\hat{k}_R\times\tilde{\vec{E}}_R\right)$
+
+$\displaystyle \tilde{\vec{E}}_T(\vec{r},t) = \tilde{\vec{E}}_{0T} e^{i(\vec{k_T}\cdot\vec{r} - \omega t)}$, $\displaystyle \tilde{\vec{B}}_T(\vec{r},t) = \frac{1}{v_2}\left(\hat{k}_T\times\tilde{\vec{E}}_T\right)$
 
