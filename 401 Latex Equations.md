@@ -152,7 +152,7 @@ $\displaystyle \tilde{\vec{E}}_T(\vec{r},t) = \tilde{\vec{E}}_{0T} e^{i(\vec{k_T
 2) $\theta_I = \theta_R$
 3) $\dfrac{\sin(\theta_T)}{\sin(\theta_I)} = \dfrac{n_1}{n_2}$
 
-For a wave polarized parallel to the plane of incidence (the $xy$ plane):
+
 
 $\epsilon_1\left(\tilde{\vec{E}}_{0_I} + \tilde{\vec{E}}_{0_R} \right)_z = \epsilon_2\left(\tilde{\vec{E}}_{0_T}\right)_z$
 
@@ -163,4 +163,23 @@ $\left(\tilde{\vec{E}}_{0_I} + \tilde{\vec{E}}_{0_R} \right)_{x,y} = \left(\tild
 $\dfrac{1}{\mu_1}\left(\tilde{\vec{B}}_{0_I} +\tilde{\vec{B}}_{0_R} \right)_{x,y} = \dfrac{1}{\mu_2}\left(\tilde{\vec{B}}_{0_T}\right)_{x,y}$
 
 $\tilde{\vec{B}}_0 = \dfrac{1}{v}\left(\hat{k}\times\tilde{\vec{E}}_0 \right)$
+
+For a wave polarized parallel to the plane of incidence (the $xy$ plane) (**TM Polarization**):
+
+$\epsilon_1\left(-\tilde{E}_{0_I}\sin(\theta_I) + \tilde{E}_{0_R}\sin(\theta_R) \right) = \epsilon_2\left(-\tilde{E}_{0_T}\sin(\theta_T) \right)$
+
+No $B$-field perpendicular, so $0=0$
+
+$\tilde{E}_{0_I}\cos(\theta_I) + \tilde{E}_{0_R}\cos(\theta_R) = \tilde{E}_{0_T}\cos(\theta_T)$
+
+$\dfrac{1}{\mu_1v_1}\left(\tilde{\vec{E}}_{0_I} -\tilde{\vec{E}}_{0_R} \right) = \dfrac{1}{\mu_2v_2}\left(\tilde{\vec{E}}_{0_T}\right)$
+
+Again, 
+$\tilde{E}_{0_I} - \tilde{E}_{0_R} = \beta\tilde{E}_{0_T}$
+where
+$\beta = \dfrac{\mu_1v_1}{\mu_2v2} = \dfrac{\mu_1n_2}{\mu_2n_1}$
+
+$\tilde{\vec{E}}_{0_I} +\tilde{\vec{E}}_{0_R} = \alpha\tilde{\vec{E}}_{0_T}$
+where
+$\alpha \equiv \dfrac{\cos(\theta_T)}{\cos(\theta_I)}$
 
