@@ -154,4 +154,13 @@ $\displaystyle \tilde{\vec{E}}_T(\vec{r},t) = \tilde{\vec{E}}_{0T} e^{i(\vec{k_T
 
 For a wave polarized parallel to the plane of incidence (the $xy$ plane):
 
-$\epsilon_1\left(\tilde{\vec{E}}_{0_I} + \tilde{\vec{E}}_{0_R} \right) = \epsilon_2\
+$\epsilon_1\left(\tilde{\vec{E}}_{0_I} + \tilde{\vec{E}}_{0_R} \right)_z = \epsilon_2\left(\tilde{\vec{E}}_{0_T}\right)_z$
+
+$\left(\tilde{\vec{B}}_{0_I} +\tilde{\vec{B}}_{0_R} \right)_z = \left(\tilde{\vec{B}}_{0_T}\right)_z$
+
+$\left(\tilde{\vec{E}}_{0_I} + \tilde{\vec{E}}_{0_R} \right)_{x,y} = \left(\tilde{\vec{E}}_{0_T}\right)_{x,y}$
+
+$\dfrac{1}{\mu_1}\left(\tilde{\vec{B}}_{0_I} +\tilde{\vec{B}}_{0_R} \right)_{x,y} = \dfrac{1}{\mu_2}\left(\tilde{\vec{B}}_{0_T}\right)_{x,y}$
+
+$\tilde{\vec{B}}_0 = \dfrac{1}{v}\left(\hat{k}\times\tilde{\vec{E}}_0 \right)$
+
