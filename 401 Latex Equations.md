@@ -241,7 +241,10 @@ $\tilde{B}_0 = \dfrac{\tilde{k}\tilde{E_0}}{\omega}$
 
 $\displaystyle \tilde{E}_0 = |\tilde{E}_0| e^{i\delta_E}$
 $\displaystyle \tilde{B}_0 = |\tilde{B}_0| e^{i\delta_B}$
-$\tilde{k} = |\tilde{k}|e^{i\varphi}$
+$\tilde{k} = |\tilde{k}|e^{i\varphi} = Ke^{i\varphi}$
+$K \equiv |\tilde{k}| = \sqrt{k^2+\varkappa^2} = \omega\sqrt{\epsilon\mu\sqrt{1+\left(\dfrac{\sigma}{\epsilon\mu}\right)^2}}$
+
+$B_0e^{i\delta{B}} = \dfrac{Ke^{i\varphi}}{\omega}E_0e^{i\delta_E}$
 
 $\delta_B - \delta_E = \varphi = \arctan\left(\dfrac{\varkappa}{k}\right)$
 
@@ -249,4 +252,5 @@ Real fields:
 $\vec{E}(z,t) = E_0e^{-\varkappa z}\cos(kz-\omega t + \delta_E)\hat{x}$
 $\vec{B}(z,t) = B_0e^{-\varkappa z}\cos(kz-\omega t + \delta_E + \varphi)\hat{y}$
 
-$\dfrac{B_0}{E_0} = \dfrac{K}{\omega} = \sqrt{\epsilon\sqrt}
+$\dfrac{B_0}{E_0} = \dfrac{K}{\omega} = \sqrt{\epsilon\mu\sqrt{1+\left(\dfrac{\sigma}{\epsilon\omega}\right)^2}}$
+
