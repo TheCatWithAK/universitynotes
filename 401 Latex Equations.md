@@ -192,4 +192,43 @@ $T = \dfrac{4\alpha\beta}{(\alpha + \beta)^2}$
 TE Polarization:
 $\tilde{E}_{0_R} = \dfrac{1 - \alpha\beta}{1+ \alpha\beta}\tilde{E_{0_I}}$
 $\tilde{E}_{0_T} = \dfrac{2}{1+ \alpha\beta}\tilde{E}_{0_I}$
-$R = \left
+$R = \left(\dfrac{1-\alpha\beta}{1+\alpha\beta} \right)^2$
+$T = \dfrac{4\alpha\beta}{(1+\alpha\beta)^2}$
+
+Brewster Angle: No T:
+Only for TM: $\alpha = \beta$
+
+Total Internal Reflection
+$\sin(\theta_T) = \dfrac{n_1}{n_2}\sin(\theta_C) = 1 \implies \sin(\theta_C) = \dfrac{n_2}{n_1}$
+
+EM Waves in Conductor
+$\vec{J}_f = \sigma\vec{E}$ 
+
+Maxwell's in a conductor
+
+$\nabla \cdot \vec{E} = 0$
+
+$\nabla\cdot\vec{B} = 0$
+
+$\nabla \times\vec{E} = -\dfrac{\partial\vec{B}}{\partial t}$
+
+$\nabla\times\vec{B} = \epsilon\mu\dfrac{\partial\vec{E}}{\partial t} + \mu\sigma\vec{E}$
+
+Modified wave equations:
+$\nabla^2\vec{E} = \mu\epsilon\dfrac{\partial^2\vec{E}}{\partial t^2} + \mu\sigma\dfrac{\partial\vec{E}}{\partial t}$, $\nabla^2\vec{B} = \mu\epsilon\dfrac{\partial^2\vec{B}}{\partial t^2} + \mu\sigma\dfrac{\partial\vec{B}}{\partial t}$
+
+Gives us plane waves with complex $k$
+
+$\tilde{\vec{E}}(z,t) = \tilde{\vec{E_0}}e^{i(\tilde{k}z-\omega t)}$, $\tilde{\vec{B}}(z,t) = \tilde{\vec{B_0}}e^{i(\tilde{k}z-\omega t)}$
+where
+$\tilde{k}^2 = \epsilon\mu\omega^2 + i\mu\sigma\omega$
+
+$\tilde{k} = k + i\varkappa$
+where
+$\displaystyle k \equiv \omega\sqrt{\dfrac{\epsilon\mu}{2}}\left[\sqrt{1+\left(\dfrac{\sigma}{\epsilon\omega}\right)^2} \pm 1 \right]^{1/2}$
+
+Good conductor:
+$\dfrac{\sigma}{\epsilon\omega} \gg 1$
+Bad conductor
+$\dfrac{\sigma}{\epsilon\omega} \ll 1$
+
