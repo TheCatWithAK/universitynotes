@@ -229,6 +229,24 @@ $\displaystyle k \equiv \omega\sqrt{\dfrac{\epsilon\mu}{2}}\left[\sqrt{1+\left(\
 
 Good conductor:
 $\dfrac{\sigma}{\epsilon\omega} \gg 1$
+$k \approx \varkappa \approx \sqrt{\dfrac{\omega\mu\sigma}{2}}$
 Bad conductor
 $\dfrac{\sigma}{\epsilon\omega} \ll 1$
+$k \approx \omega\sqrt{\epsilon\mu} \gg \varkappa \approx \dfrac{1}{2}\dfrac{\sigma}{\epsilon\omega}k$
 
+Field Structure:
+$\tilde{\vec{E}}(z,t) = \tilde{E_0}e^{-\varkappa z}e^{i(kz-\omega t)}\hat{x}$, $\tilde{\vec{B}}(z,t) = \tilde{B_0}e^{-\varkappa z}e^{i(kz-\omega t)}\hat{y}$
+where
+$\tilde{B}_0 = \dfrac{\tilde{k}\tilde{E_0}}{\omega}$
+
+$\displaystyle \tilde{E}_0 = |\tilde{E}_0| e^{i\delta_E}$
+$\displaystyle \tilde{B}_0 = |\tilde{B}_0| e^{i\delta_B}$
+$\tilde{k} = |\tilde{k}|e^{i\varphi}$
+
+$\delta_B - \delta_E = \varphi = \arctan\left(\dfrac{\varkappa}{k}\right)$
+
+Real fields:
+$\vec{E}(z,t) = E_0e^{-\varkappa z}\cos(kz-\omega t + \delta_E)\hat{x}$
+$\vec{B}(z,t) = B_0e^{-\varkappa z}\cos(kz-\omega t + \delta_E + \varphi)\hat{y}$
+
+$\dfrac{B_0}{E_0} = \dfrac{K}{\omega} = \sqrt{\epsilon\sqrt}
