@@ -128,8 +128,17 @@ $B^{\perp}_1 = B^{\perp}_2 = 0$
 
 $\tilde{E}_{0_I} + \tilde{E}_{0_R} = \tilde{E}_{0_T}$
 
-$\displaystyle \frac{1}{\mu_1}\frac{1}{v_1}\left(\tilde{E}_0 - \tilde{E}_ \right)
+$\displaystyle \frac{1}{\mu_1}\frac{1}{v_1}\left(\tilde{E}_{0_I} - \tilde{E}_{0_R} \right) = \frac{1}{\mu_2}\frac{1}{v_2}\left(\tilde{E}_{0_T})\right)$
+or
+$\tilde{E}_{0_I} - \tilde{E}_{0_R} = \beta\tilde{E}_{0_T}$
+where
+$\beta = \dfrac{\mu_1v_1}{\mu_2v2} = \dfrac{\mu_1n_2}{\mu_2n_1}$
 
+Intensity: $I = \dfrac{1}{2}\epsilon v E^2_0$
+
+$R = \dfrac{I_R}{I_I} = \left(\dfrac{n_1-n_2}{n_1+n_2}\right)^2$
+$T = \dfrac{I_T}{I_I} = \dfrac{4n_1n_2}{(n_1+n_2)^2}$
+$R + T = 1$
 
 Waves at Oblique Angles
 
@@ -139,3 +148,10 @@ $\displaystyle \tilde{\vec{E}}_R(\vec{r},t) = \tilde{\vec{E}}_{0R} e^{i(\vec{k_R
 
 $\displaystyle \tilde{\vec{E}}_T(\vec{r},t) = \tilde{\vec{E}}_{0T} e^{i(\vec{k_T}\cdot\vec{r} - \omega t)}$, $\displaystyle \tilde{\vec{B}}_T(\vec{r},t) = \frac{1}{v_2}\left(\hat{k}_T\times\tilde{\vec{E}}_T\right)$
 
+1) $k_I\sin(\theta_I) = k_R\sin(\theta_R) = k_T\sin(\theta_T)$
+2) $\theta_I = \theta_R$
+3) $\dfrac{\sin(\theta_T)}{\sin(\theta_I)} = \dfrac{n_1}{n_2}$
+
+For a wave polarized parallel to the plane of incidence (the $xy$ plane):
+
+$\epsilon_1\left(\tilde{\vec{E}}_{0_I} + \tilde{\vec{E}}_{0_R} \right) = \epsilon_2\
